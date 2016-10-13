@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>详情页</title>
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="js/jquery_1.11.3.min.js"></script>
+		<script src="js/jquery_cookie.js"></script>
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- ==============font-face阿里========== -->
+    	<link rel="stylesheet" href="iconfont/iconfont.css">
+    	
+
+    	<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/product.css">
+		<script src="js/common.js"></script>
+		<script src="js/product.js"></script>
+</head>
+<body>
+		<!-- 顶部导航 -->
+	<div class="top" id="top">
+		<div class="wrapper">
+		<ul class="clear">
+			<li id="lihide">
+				您好，
+				<a href="login.html">请登录</a>&nbsp;<a href="register.html" class="pink">免费注册</a>
+			</li>
+			<li id="lishow">
+				<span><i class="iconfont" style="color:#77bb00">&#xe608;</i><span id="userPhone" class="pink"></span></span>
+				<a  href="##" id="exit"> [退出]</a>
+			</li>
+			<li>
+				<a href="##">商家中心</a>
+			</li>
+			<li class="li3">
+				<i class="iconfont pink" style="font-size:10px">&#xf0054;</i><a href="##">联系客服</a><i class="iconfont">&#xe605;</i>
+				<div>
+					<p><i class="iconfont pink">&#xf0054;</i><a href="##">联系客服</a><i class="iconfont">&#xe605;</i></p>
+					<i class="iconfont pink">&#xe6e6;</i><a href="##">帮助中心</a>
+				</div>
+			</li>
+			<li class="li4 b_0">
+				<a href="##">关注</a><i class="iconfont">&#xe605;</i>
+				<div class="down">
+					<div class="down_t"><a href="##">关注</a><i class="iconfont">&#xe605;</i></div>
+					<div class="left">
+						<span>微信号：beibeiclub</span></br>
+						<img src="images/top/beibeiclub_90.png" alt="" /></br>
+						<span>订阅贝贝官方微信</span>
+					</div>
+					<div class="right">
+						<a href="#"><img src="images/top/weibo_45x45.png" alt="" /></a></br>
+						<a href="#"><img src="images/top/qzone_45x45.png" alt="" /></a>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	</div>
+	<!-- 顶部导航结束 -->
+	<!-- head -->
+	<div id="head">
+		<div class="wrapper clear">
+			<h1 class="head_1 left">
+				<a href="index.html"></a>
+			</h1>
+			<div class="head_2 left">
+				<a href="##"></a>
+			</div>
+			<div class="head_car right">
+				<a href="##">
+					<div class="car_img left"><i class="iconfont">&#xe607;</i></div>
+					<span>我的购物车</span><i class="iconfont">&#xe605;</i>
+				</a>
+				<div id="car_in" class='car_in'>
+					<ul class="product product1">
+						<span id="car_in_span">赶快去挑选商品吧!</span>
+						<!-- json写入数据 -->
+					</ul>
+					<div class="foot">
+						<div id="xiaoji" class="xiaoji left">小计：<span class="money pink">¥<i>0.00</i><span></div>
+						<a href="car.html" class="account left">
+							<i class="iconfont">&#xe61d;</i>去购物车结算
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- head结束 -->
+	
+	<!-- nav -->
+	<div class="nav">
+		<div class="wrapper main_nav">
+			<ul class="left">
+				<li><a href="index.html" style="background:#f34660;">首页</a></li>
+				<li class="li3"><a href="##">全球购</a><i class="iconfont"></i></li>
+				<li><a href="##">限量购</a></li>
+				<li><a href="##">正品保证</a></li>
+				<li><a href="##">手机客户端</a></li>
+			</ul>
+			<!-- 在售分类 -->
+			<div class="nav_menu">在售分类<i class="iconfont" style="font-size:12px">&#xe605;</i>
+
+				 <div id="nav_menu_down">
+				 	<ul id="nav_menu_title">
+				 		<li>热销分类</li>
+				 		<li>婴儿装</li>
+				 		<li>婴童鞋</li>
+				 		<li>奶粉辅食</li>
+				 		<li>纸尿裤</li>
+				 		<li>哺育喂养</li>
+				 		<li>洗护清洁</li>
+				 		<li>睡眠出行</li>
+				 		<li>玩具文体</li>
+				 		<li>睡眠出行</li>
+				 		<li>孕妈专区</li>
+				 		<li>流行服饰</li>
+				 		<li>鞋包配饰</li>
+				 		<li>居家百货</li>
+				 		<li>美妆个护</li>
+				 	</ul>
+				 	<div id="nav_menu_list">
+				 			<ul class="list_ul">
+				 				<li><a href="#"><img src="images/top/52185170193577_120x120.png!60x60.jpg" alt=""><br><span>555</span></a></li>
+				 				<li><a href="#"><img src="images/top/52185170193577_120x120.png!60x60.jpg" alt=""><br><span>555</span></a></li>
+				 				<li><a href="#"><img src="images/top/52185170193577_120x120.png!60x60.jpg" alt=""><br><span>555</span></a></li>
+				 				<li><a href="#"><img src="images/top/52185170193577_120x120.png!60x60.jpg" alt=""><br><span>555</span></a></li>
+				 				
+
+				 			</ul>
+				 		</div>
+				 </div>
+			</div>
+			<!-- 搜索框 -->
+			<div class="search right">
+				<input type="text" class="inp" placeholder="搜索商品或品牌"/>
+				<button><i class="iconfont">&#xe61c;</i></button>
+			</div>
+		</div>
+	</div>
+
+	<!-- main部分 -->
+	<div class="main_wrap">
+		<div class="wrapper">
+			<div class="main1">
+				<a href="##">首页</a>&gt;<a href="##">婴童服装</a>&gt;<a href="##">戴维贝拉</a>&gt;<a href="##">davebella戴维贝拉女童宝宝秋冬连帽保暖外套 DB4267</a>
+				<span id="time" class="right">时间</span>
+			</div>
+			<div class="main2 clear">
+				<div class="main2_l left">
+					<div class="media">
+						<!--======= 图片展示 ========-->
+					  <div class="media-left" >
+					  	<div class="imgzoom-main">
+					  		<img class="img1 " src="images/product/02174059101727_800x800.jpg!350x350.jpg" alt="...">
+						    <div class="imgzoom-shot"></div>
+						    <div class="imgzoom-pop"><img src="images/product/02174059101727_800x800.jpg" alt="..."></div>
+					  	</div>
+					  	<!-- 轮播 -->
+					    <div id="box">
+					    	
+							<ul class="clear">
+								<!-- json写入数据 -->
+							</ul>
+							<span class="pre">&lt;</span>
+					    	<span class="next">&gt;</span>
+						</div>
+						<div class="collect">
+							<a class="collect1" href="##">
+								<i class="iconfont">&#xe699;</i><span>收藏商品</span>
+							</a>
+							<a class="collect2" href="##">
+								<i class="iconfont">&#xe699;</i>
+								<span class="span1">已收藏</span><span class="span2">取消收藏</span>
+							</a>
+						</div>
+					  </div>
+					  <div class="media-body">
+					  	<!-- 衣服标题部分 -->
+					  	<div id="body_t">
+					  		<h4>今日特卖 davebella戴维贝拉男宝宝春秋季拉链衫薄外套DB396</h4>
+						    <p class="info">优质绵柔面料，手感舒适细腻，精致细节处处提升舒适度，小立领、小插兜 拉链防刮保护，可爱波浪纹印花，让宝宝更显活力帅气</p>
+						    <p class="price"><span class="span1">¥<b id="newPrice">79.00</b></span><span class="span2">4.4折</span><span class="span3">包邮</span>市场价：¥<span class="span4" id="oldPrice">179.00</span></p>
+					  	</div>
+						<!-- 款式分类 -->
+					    <div id="body_b">
+					    	<div class="cost">
+					    		<label>运费</label>
+					    		<span>包邮（偏远地区除外）</span>
+					    	</div>
+					    	<div class="pri">
+					    		<label>优惠</label>
+								<div class="jian"><span class='span1'>减</span>本专场满299元减10元<i class="iconfont">&#xe605;</i></div>
+								<div class="fan"><span class='span1'>返</span>购买后约返10个贝壳<i class="iconfont">&#xe605;</i></div>
+					    	</div>
+					    	<div class="color">
+					    		<label>颜色</label>
+					    		<ul class="clear">
+					
+					    		</ul>
+					    	</div>
+					    	<div class="size">
+					    		<label>尺码</label>
+					    		<ul class="clear">
+					    			<li><a href="##"><span>66cm(12m)</span><img class="true" src="images/product/on.jpg" alt=""></a></li>
+					    			<li><a href="##"><span>73cm(18m)</span><img class="true" src="images/product/on.jpg" alt=""></a></li>
+					    			<li><a href="##"><span>80cm(24m)</span><img class="true" src="images/product/on.jpg" alt=""></a></li>
+					    			<li><a href="##"><span>90cm(3T)</span><img class="true" src="images/product/on.jpg" alt=""></a></li>
+					    			<li><a href="##"><span>100cm(4T)</span><img class="true" src="images/product/on.jpg" alt=""></a></li>
+					    			<li><a href="##"><span>110cm(5T)</span><img class="true" src="images/product/on.jpg" alt=""></a></li>
+					    			<li><a href="##"><span>120cm(6T)</span><img class="true" src="images/product/on.jpg" alt=""></a></li>
+					    			<li><a href="##"><span>130cm(7T)</span><img class="true" src="images/product/on.jpg" alt=""></a></li>
+					    		</ul>
+					    		<span><a class="red" href="##">查看尺码表</a></span>
+					    	</div>
+					    	<div class="num">
+					    		<label>数量</label>
+					    		<div id="num">
+					    			<input id="sub" type="button" value="-" disabled="true">
+					    			<input id="val" type="text" value="1">
+					    			<input id="add" type="button" value="+">
+					    		</div>
+					    	</div>
+					    	<p>服务承诺：全场包邮，全部正品，7天无理由退货，退货补运费</p>
+					    	<div class="cost">
+					    		<a id="buy" href="##"><i class="iconfont">&#xe61d;</i>立即抢购</a>
+					    		<div id="account">
+					    			<a id="buy2" href="car.html">去结算</a>
+					    			<a id="buy3" href="##">继续购物</a>
+					    		</div>
+					    		<span class="red">! 请选择尺码 ！</span>
+					    	</div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="main2_r right"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div class="footer2">
+		<a href="##">首页</a>|<a href="##">关于贝贝</a>|<a href="##">商家入驻</a>|<a href="##">正品保证</a>|<a href="##">人才保证</a>|<a href="##">联系我们</a>|<a href="##">帮助中心</a>|<a href="##">友情链接</a>|<a href="##">手机客户端</a>|<a href="##">客服在线</a>|<a href="##">贝贝公益</a>|<a href="##">品质健康</a>
+	</div>
+	<div class="footer3">
+		<span>浙ICP备12005806号 |
+                食品流通许可证：SP3301041510054925 |
+                出版物经营许可证：新出发零字第00086号</span><br>
+        <span>© 2014-2016 beibei.com，All Rights Reserved. 客服热线：10107788</span><br>
+        <a href="##"><img src="images/footer/upload_37b07600c833c0678cfe99a29ab00f1f_127x47.png" alt="" /></a><a href="##"><img src="images/footer/cxwz.png" alt="" /></a><a href="##"><img src="images/footer/picc.png" alt="" /></a><a href="##"><img src="images/footer/hzgs.png" alt="" /></a>
+	</div>
+	<!-- 侧边 -->
+	<ul class="broadside">
+		<li class="li1">
+			<a href="##"><i class="iconfont">&#xe61d;</i><div class="car_num">0</div></a>
+			
+				<div id="car_in2" class="car_in">
+					<p class="car2_top"><i class="iconfont">&#xe61d;</i><span>购物车是空的</span></p>
+					<ul class="product product2">
+						<span>赶快去挑选商品吧!</span>
+						<!-- json写入数据 -->
+					</ul>
+					<div class="foot">
+						<div id="xiaoji2" class="xiaoji left">小计：<span class="money pink">¥<i>0.00</i><span></div>
+						<a href="car.html" class="account left">
+							<i class="iconfont">&#xe61d;</i>去购物车结算
+						</a>
+					</div>
+				</div>
+			
+		</li>
+		<li class="li2">
+			<a href="##"><i class="iconfont">&#xe65c;</i></a>
+			<div class="side_phone">
+				<p>下载手机APP</p>
+				<p>随时随地看上新</p>
+				<img src="images/side/40450807220001_158x158.jpg" alt="">
+			</div>
+		</li>
+		<li class="li3"><a href="##"><i class="iconfont">&#xf0054;</i><span>客服在线</span></a></li>
+		<li class="li3"><a href="##" id="goback"><i class="iconfont">&#xe606;</i><span>回到顶部</span></a></li>
+	</ul>
+</body>
+</html>

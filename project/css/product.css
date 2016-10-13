@@ -1,0 +1,358 @@
+.main_wrap{
+	width: 100%;
+	background: #f7f6f2;
+	padding:20px 0;
+}
+.main1{
+	margin: 0 5px 10px;
+    color: #999;
+}
+.main1 a{
+	text-decoration: none;
+	padding:0 8px;
+	color:#999;
+}
+.main1 #time{
+	display: inline-block;
+	padding-bottom: 3px;
+    border-bottom: 2px solid #66a600;
+}
+.main2{
+	background: #FFF;
+	margin: 0 0 20px;
+    -webkit-box-shadow: 5px 0 8px -2px #ccc;
+    -moz-box-shadow: 5px 0 8px -2px #ccc;
+    box-shadow: 5px 0 8px -2px #ccc;
+}
+.main2_l{
+	position: relative;
+	width: 890px;
+	padding:25px 15px;
+}
+/*图片和放大镜*/
+.media-left{
+	position: relative;
+}
+.imgzoom-main{
+	position: relative;
+}
+
+.imgzoom-shot{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 160px;
+	height: 160px;
+	background: url(../images/product/mask.png) repeat; 
+
+}
+.media-left .img1{
+	width: 320px;
+	height: 320px;
+}
+.imgzoom-pop {
+	display: none;
+	z-index: 6;
+	position: absolute;
+	top: 0;
+	left: 330px;
+	width: 400px;
+	height: 400px;
+	border: 1px solid #eee;
+	border-top: 0;
+	background: #fff ;
+	overflow: hidden
+}
+			
+.imgzoom-pop img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 800px;
+	height: 800px;
+}
+/*轮播*/
+#box{
+	position: relative;
+	width: 258px;
+	height: 64px;
+	margin:25px 30px;
+	overflow: hidden;
+}
+#box ul{
+	position:absolute;
+	top: 0;
+	left: 0;
+	min-width: 250px;
+}
+#box ul li{
+	float:left;
+}
+#box ul li a{
+	display: block;
+	border: 2px solid #fff;
+}
+#box ul li a img{
+	width: 60px;
+	height: 60px;
+}
+.pre,.next{
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	color:#888;
+	font-size: 20px;
+	top:10px;
+	padding: 5px 0;
+	background:rgba(100,100,100,0); 
+}
+.pre:hover,.next:hover{
+	color:#000;
+	background:rgba(100,100,100,0.3); 
+}
+.pre{
+	left:0px;
+	
+}
+.next{
+	right:0px;
+}
+.red{
+	border-color: #ff5482!important;
+}
+/*收藏商品*/
+.collect{
+	margin-top: 20px;
+}
+.collect a{
+	display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 12px;
+    border-radius: 11px;
+    cursor: pointer;
+    background: #fff;
+    width: 100px;
+    color: #999;
+    text-align: left;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    text-decoration: none;
+}
+.collect1:hover{
+	color:#ff5482;
+}
+.collect .collect2{
+	display: none;
+	color:#ff5482;
+}
+.collect2 .span2{
+	display: none;
+}
+
+/*商品详情*/
+#body_t{
+	border-bottom: 1px dashed #ddd;
+}
+#body_t h4{
+	font-weight: 500;
+    margin: 0;
+    padding-bottom: .2em;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+#body_t .info{
+	color: #754;
+	margin: 0 0 8px;
+}
+.price{
+	color: #999;
+}
+.price .span1{
+	font-size: 16px;
+	color: #FF5482;
+}
+.price .span1 b{
+	font-size: 36px!important;
+	font-weight: normal;
+
+}
+.price .span2{
+	font-size: 12px;
+    position: relative;
+    top: -1px;
+    margin: 0 0 0 10px;
+    padding: 0 5px;
+    color: #fff;
+    border: 1px solid #66a600;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background: #7dca00;
+}
+.price .span3{
+	font-size: 12px;
+    position: relative;
+    top: -1px;
+    margin: 0 10px;
+    padding: 0 5px;
+    color: #fff;
+    border: 1px solid #4b8ff5;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background: #5c9dff;
+}
+.price .span4{
+	text-decoration: line-through;
+}
+
+#body_b>div{
+	margin: 15px 0;
+	position: relative;
+	padding-left: 90px;
+}
+#body_b>div label{
+	font-weight: normal;
+	width: 65px;
+	text-align: right;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.pri .span1{
+	font-size: 12px;
+    position: relative;
+    top: -1px;
+    margin: 0;
+    padding: 0 5px;
+    color: #fff;
+    border: 1px solid #66a600;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background: #7dca00;
+    margin-right:8px;
+}
+.pri .fan .span1{
+	background-color: #ff8135;
+    border-color: #e66315;
+}
+.color ul li,.size ul li{
+	float:left;
+}
+.color ul li a,.size ul li a{
+	position: relative;
+	display: block;
+	height: 25px;
+    padding: 2px 8px 2px 2px;
+    -webkit-transition: border-color .2s;
+    -moz-transition: border-color .2s;
+    -o-transition: border-color .2s;
+    transition: border-color .2s;
+    min-width: 10px;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #b8b7bd;
+   /* background-color: #fff;*/
+    margin:0 15px 15px 0; 
+}
+.color ul li a span,.size ul li a span{
+	position: relative;
+	z-index: 5;
+}
+.color .true,.size .true{
+	display: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+#body_b .red{
+	text-decoration: none;
+	color: #CA3C3C;
+}
+/*数量*/
+#val{
+	width: 30px;
+	text-align: center;
+}
+/*抢购按钮*/
+#buy{
+	font-size: 18px;
+    font-weight: 700;
+    line-height: 44px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 150px;
+    height: 44px;
+    margin: 15px 0 0 0;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #ff3c70;
+    border-bottom: 3px solid #e41f54;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #ff5482;
+    text-decoration: none;
+}
+#buy i{
+	margin-right:10px; 
+}
+.cost .red{
+	display: none;
+}
+/*点击过后的按钮*/
+#account{
+	display: none;
+}
+#account a{
+	display: inline-block;
+	text-decoration: none;
+}
+#buy2{
+	border: 1px solid #509301;
+    border-bottom: 3px solid #509301;
+    background: #66ba04;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 44px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 150px;
+    height: 44px;
+    margin: 15px 0 0 0;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    
+}
+#buy2:hover{
+	 background: #509901;
+}
+#buy3{
+	font-size: 18px;
+    font-weight: 700;
+    line-height: 44px;
+    width: 100px;
+    height: 44px;
+    margin: 15px 0 0 5px;
+    text-align: center;
+    vertical-align: top;
+    color: #999;
+    border: 1px solid #e0e0e0;
+    border-bottom: 3px solid #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #f0f0f0;
+	
+}

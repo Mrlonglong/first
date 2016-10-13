@@ -1,0 +1,118 @@
+.rtop{
+	width: 1080px;
+	margin: 0 auto;
+	padding-top: 45px;
+}
+.main{
+	padding: 110px 0;
+	width: 1080px;
+	margin: 0 auto;
+}
+.main_r{
+	color: #666;
+    width: 400px;
+    border: 1px solid #ececec;
+    border-top: 2px solid #ff4965;
+}
+.main_r form{
+	padding: 50px 35px;
+}
+.m-ipt-area .area-title {
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.ipt-login{
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+    float: right;
+}
+.u-hp-target{
+	text-decoration: none;
+	color: #ff8094;
+}
+.u-hp-target:hover {
+	color: #ff8094;
+}
+.group-label {
+    display: block;
+    border: 1px solid #e6e6e6;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding-left: 30px;
+    position: relative;
+}
+.identi {
+    left: 8px;
+    top: 8px;
+    border-right: 1px solid #e6e6e6;
+    padding-right: 7px;
+    background-image: url(images/upload_c8f6a2dfe4ca17b3941740e88373a88e_14x93.jpg) no-repeat 0 0;
+    top: 8px;
+    width: 14px;
+    height: 14px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+.phone,.pw{
+	border: 1px solid #e6e6e6;
+	border-radius: 2px;
+	margin: 15px 0;
+	padding:3px 0;
+}
+.J_registerForm input{
+	border: none;
+	width: 185px;
+}
+.J_registerForm i{
+	padding: 0 10px;
+	border-right: 1px solid #e6e6e6;
+}
+
+.pw .right{
+	cursor: pointer;
+}
+#show{
+	display: none;
+}
+.rbtn{
+	margin: 15px 0;
+	text-decoration: none;
+	color: #fff;
+    background: #ff4965;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 6px;
+    -webkit-transition: background .3s;
+    -moz-transition: background .3s;
+    -o-transition: background .3s;
+    transition: background .3s;
+}
+.rbtn:hover{
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.7;
+	filter: alpha(opacity:70)
+}
+#remember label{
+ font-weight: normal;
+}
+#checkBox{
+	width: auto;
+}
+#remember .red{
+	text-decoration: none;
+	color: #ff4965;
+}
+#remember .red:hover{
+	opacity: 0.7;
+	filter: alpha(opacity:70);
+}

@@ -1,0 +1,262 @@
+/*main1部分大图*/
+.main_wrap{
+	width: 100%;
+	background: #f3f6ff;
+	padding-top: 12px;
+    padding-bottom: 35px;
+}
+.main1{
+	background-color: #fff;
+    border: 1px solid #eee;
+    padding: 6px;
+}
+.main1_time{
+	height: 81px;
+	padding: 10px 0 0;
+    margin: 0 21px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #f1f1f1;
+}
+.main1_time img{
+	width: 120px;
+	height: 60px;
+}
+#time{
+	color: #555;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    padding-left: 25px;
+}
+.main1 h3{
+	margin: 15px 0;
+	color: #484848;
+    font-size: 18px;
+    font-weight: 400;
+    overflow: hidden;
+    height: 36px;
+}
+.main1 h3 span{
+	margin-left: 10px;
+    color: #ff4965;
+    font-size: 16px;
+}
+.main1 h3 span b{
+	font-size: 24px;
+    font-weight: 700;
+}
+.main1 .label{
+	color: #999;
+	margin: 10px 0 10px;
+	padding: 0 0 0 13px;
+    overflow: hidden;
+    font-weight: 400;
+}
+.main1 .info{
+	margin: 10px 0 10px;
+	color: #999;
+    height: 50px;
+    overflow: hidden;
+    line-height: 20px;
+}
+/*收藏*/
+.collect{
+    margin-top: 20px;
+     float: right;
+}
+.collect a{
+    text-decoration: none;
+    height: 24px!important;
+    line-height: 24px;
+    padding: 0 12px;
+    margin-right:10px; 
+    border-radius: 11px;
+    cursor: pointer;
+    background: #fff;
+    width: 100px;
+    color: #999;
+    text-align: left;
+    /*border: 1px solid #e7e7e7;*/
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.collect1:hover{
+    color:#ff5482;
+}
+.collect .collect2{
+    display: none;
+    color:#ff5482;
+}
+.collect2 .span2{
+    display: none;
+}
+/*main的第二部分----菜单*/
+.main2{
+	background: #fff;
+    border: 1px solid #eee;
+    padding: 0 18px;
+    margin: 13px 0;
+}
+.main2_t{
+	border-bottom: 1px dashed #eee;
+	padding: 15px 0;
+    color: #666;
+}
+.fenlei,.paixu{
+	color: #666;
+}
+.main2_t ul{
+	width: 1002px;
+}
+.main2_t ul li{
+	float:left;
+}
+.main2_t ul li a{
+	padding: 2px 8px;
+    _zoom: 1;
+    _border: 0!important;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -o-transition: color .3s;
+    transition: color .3s;
+    color: #3E3E3E;
+}
+.main2_t ul li a:hover{
+	color:#ff4965;
+	text-decoration: none;
+}
+.main2_b{
+	padding: 15px 0;
+    color: #666;
+}
+.paixu{
+	margin-right:20px; 
+}
+.main2_b input{
+	cursor: pointer;
+}
+.main2_b a{
+	text-decoration: none;
+	margin:0 8px;
+	display: inline-block;
+	color: #999;
+    padding: 2px 8px;
+    border: 1px solid #ddd;
+    _zoom: 1;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.main2_b a:hover{
+	text-decoration: none;
+	color:#ff4965;
+	border: 1px solid #ff4965;
+}
+.active{
+	color: #fff!important;
+    background: #ff4965;
+    border: 1px solid #ff4965!important;
+}
+
+/*商品列表*/
+.main3{
+	position: relative;
+	width: 100%;
+}
+.main3 ul{
+	width: 1100px;
+	margin-left: -20px;
+}
+.main3 ul li{
+	float: left;
+	margin:0 0 20px 20px ; 
+}
+.main3 ul li a{
+	display: block;
+	color: #3E3E3E;
+    text-decoration: none;
+    border: 1px solid #eee;
+    width: 255px;
+    height: 330px;
+    position: relative;
+    cursor: pointer;
+    _overflow: hidden;
+    _zoom: 1;
+    -webkit-transition: border-color .3s;
+    -moz-transition: border-color .3s;
+    -o-transition: border-color .3s;
+    transition: border-color .3s;
+}
+.main3 ul li a:hover{
+	    border-color: #ff4965;
+}
+.main3 ul li a img{
+	width: 253px;
+	height: 253px;
+}
+.main3 ul li a p{
+	width: 253px;
+	padding: 5px 10px;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main3 .price{
+	padding: 5px 10px;
+	height: 35px;
+}
+.main3 .span1{
+	  font-size: 18px;
+	  color: #ff4965;
+    font-weight: 700;
+}
+.main3 .span1 b{
+	font-size: 24px;
+}
+.main3 .span2{
+	font-size: 14px;
+    font-weight: 400;
+    color: #999;
+	text-decoration: line-through;
+}
+.main3 .span3{
+	margin-top: 10px;
+	font-size: 14px;
+    font-weight: 400;
+    color: #999;
+}
+/*分页按钮*/
+.main3_b{
+    width: 100%;
+    margin:15px;
+    padding-left: 100px
+}
+#pageNum{
+    width: auto;
+    padding-top: 6px;
+}
+#pageNum li{
+    margin: 0 5px;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+#pageNum li:hover{
+    color:#333;
+    font-size: 16px 
+}
+.clicked{
+     border-color:#333!important;
+    color:#333;
+    font-size: 16px;
+}

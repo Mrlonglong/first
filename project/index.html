@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>贝贝网</title>
+		
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="js/jquery_1.11.3.min.js"></script>
+		<script src="js/jquery_cookie.js"></script>
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- ==============font-face阿里========== -->
+    	<link rel="stylesheet" href="iconfont/iconfont.css">
+
+    	<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/index.css">
+		<script src="js/common.js"></script>
+		<script src="js/index.js"></script>
+</head>
+<body>
+	<!-- 顶部浮窗 -->
+	<div class="sub_nav" id="sub_nav">
+		<div class="wrapper">
+			<a href="##" class="beibei left"><img src="images/side/92788ffe070a9643a1bc1d8e2284b182.png" alt=""></a>
+			<ul class="left clear">
+				<li><a href="#">童装</a></li>
+				<li><a href="#">童鞋</a></li>
+				<li><a href="#">用品</a></li>
+				<li><a href="#">玩具</a></li>
+				<li><a href="#">女装</a></li>
+				<li><a href="#">居家</a></li>
+				<li><a href="#">食品</a></li>
+				<li><a href="#">美妆</a></li>
+				<li><a href="#">奶粉</a></li>
+				<li class="hot"><a href="#">纸尿裤</a></li>
+			</ul>
+			<div class="left age">
+				性别年龄<i class="iconfont" style="font-size:8px">&#xe605;</i>
+				<!-- 年龄性别 -->
+				<div class="age_down">
+					<dl>
+						<dt>男孩<dt>
+						<dd><a href="#">0-1岁</a><a href="#">1-3岁</a><a href="#">3-6岁</a><a href="#">6-9岁</a><a href="#">9-12岁</a><dd>
+					</dl>
+					<dl>
+						<dt>女孩<dt>
+						<dd><a href="#">0-1岁</a><a href="#">1-3岁</a><a href="#">3-6岁</a><a href="#">6-9岁</a><a href="#">9-12岁</a><dd>
+					</dl>
+				</div>
+				<!-- 年龄性别结束 -->
+			</div>
+			<div class="right notice">
+					<a class="a1" href="##"><img src="images/side/oversea_icon_16x16.png" alt="">全球购</a>
+					<a class="a2" href="##"><img src="images/side/f45259dc52970a6ea21d62531e9a96b0.png" alt="">限量购</a>
+			</div>
+		</div>
+	</div>
+	<!-- 顶部导航 -->
+	<div class="top" id="top">
+		<div class="wrapper">
+		<ul class="clear">
+			<li id="lihide">
+				您好，
+				<a href="login.html">请登录</a>&nbsp;<a href="register.html" class="pink">免费注册</a>
+			</li>
+			<li id="lishow">
+				<span><i class="iconfont" style="color:#77bb00">&#xe608;</i><span id="userPhone" class="pink"></span></span>
+				<a  href="##" id="exit"> [退出]</a>
+			</li>
+			<li>
+				<a href="##">商家中心</a>
+			</li>
+			<li class="li3">
+				<i class="iconfont pink" style="font-size:10px">&#xf0054;</i><a href="##">联系客服</a><i class="iconfont">&#xe605;</i>
+				<div>
+					<p><i class="iconfont pink">&#xf0054;</i><a href="##">联系客服</a><i class="iconfont">&#xe605;</i></p>
+					<i class="iconfont pink">&#xe6e6;</i><a href="##">帮助中心</a>
+				</div>
+			</li>
+			<li class="li4 b_0">
+				<a href="##">关注</a><i class="iconfont">&#xe605;</i>
+				<div class="down">
+					<div class="down_t"><a href="##">关注</a><i class="iconfont">&#xe605;</i></div>
+					<div class="left">
+						<span>微信号：beibeiclub</span></br>
+						<img src="images/top/beibeiclub_90.png" alt="" /></br>
+						<span>订阅贝贝官方微信</span>
+					</div>
+					<div class="right">
+						<a href="#"><img src="images/top/weibo_45x45.png" alt="" /></a></br>
+						<a href="#"><img src="images/top/qzone_45x45.png" alt="" /></a>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	</div>
+	<!-- 顶部导航结束 -->
+	<!-- head -->
+	<div id="head">
+		<div class="wrapper clear">
+			<h1 class="head_1 left">
+				<a href="index.html"></a>
+			</h1>
+			<div class="head_2 left">
+				<a href="##"></a>
+			</div>
+			<div class="head_car right">
+				<a href="##">
+					<div class="car_img left"><i class="iconfont">&#xe607;</i></div>
+					<span>我的购物车</span><i class="iconfont">&#xe605;</i>
+				</a>
+				<div id="car_in" class='car_in'>
+					<ul class="product product1">
+						<span id="car_in_span">赶快去挑选商品吧!</span>
+						<!-- js写数据 -->
+					</ul>
+					<div class="foot">
+						<div id="xiaoji" class="xiaoji left">小计：<span class="money pink">¥<i>0.00</i><span></div>
+						<a href="car.html" class="account left">
+							<i class="iconfont">&#xe61d;</i>去购物车结算
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- head结束 -->
+
+	<!-- nav -->
+	<div class="nav">
+		<div class="wrapper main_nav">
+			<ul class="left">
+				<li><a href="index.html" style="background:#f34660;">首页</a></li>
+				<li class="li3"><a href="##">全球购</a><i class="iconfont">&#xe61a;</i></li>
+				<li><a href="##">限量购</a></li>
+				<li><a href="##">正品保证</a></li>
+				<li><a href="##">手机客户端</a></li>
+			</ul>
+			<!-- 在售分类 -->
+			<div class="nav_menu">在售分类<i class="iconfont" style="font-size:12px">&#xe605;</i>
+
+				 <div id="nav_menu_down">
+				 	<ul id="nav_menu_title">
+				 		<li class="activer">热销分类</li>
+				 		<li>婴儿装</li>
+				 		<li>婴童鞋</li>
+				 		<li>奶粉辅食</li>
+				 		<li>纸尿裤</li>
+				 		<li>哺育喂养</li>
+				 		<li>洗护清洁</li>
+				 		<li>睡眠出行</li>
+				 		<li>玩具文体</li>
+				 		<li>睡眠出行</li>
+				 		<li>孕妈专区</li>
+				 		<li>流行服饰</li>
+				 		<li>鞋包配饰</li>
+				 		<li>居家百货</li>
+				 		<li>美妆个护</li>
+				 	</ul>
+				 	<div id="nav_menu_list">
+				 			<ul class="list_ul">
+				 				<li><a href="#"><img src="images/top/52185170193577_120x120.png!60x60.jpg" alt=""><br><span>555</span></a></li>
+				 				<li><a href="#"><img src="images/top/52185170193577_120x120.png!60x60.jpg" alt=""><br><span>555</span></a></li>
+				 				<li><a href="#"><img src="images/top/52185170193577_120x120.png!60x60.jpg" alt=""><br><span>555</span></a></li>
+				 				<li><a href="#"><img src="images/top/52185170193577_120x120.png!60x60.jpg" alt=""><br><span>555</span></a></li>
+				 				
+
+				 			</ul>
+				 		</div>
+				 </div>
+			</div>
+			<!-- 搜索框 -->
+			<div class="search right">
+				<input type="text" class="inp" placeholder="搜索商品或品牌"/>
+				<button><i class="iconfont">&#xe61c;</i></button>
+			</div>
+		</div>
+	</div>
+	<!-- 副nav -->
+	<div class="sub_nav">
+		<div class="wrapper">
+			<ul class="left clear">
+				<li><a href="#">童装</a></li>
+				<li><a href="#">童鞋</a></li>
+				<li><a href="#">用品</a></li>
+				<li><a href="#">玩具</a></li>
+				<li><a href="#">女装</a></li>
+				<li><a href="#">居家</a></li>
+				<li><a href="#">食品</a></li>
+				<li><a href="#">美妆</a></li>
+				<li><a href="#">奶粉</a></li>
+				<li class="hot"><a href="#">纸尿裤</a><i class="iconfont">&#xe633;</i></li>
+			</ul>
+			<div class="left age">
+				性别年龄<i class="iconfont" style="font-size:8px">&#xe605;</i>
+				<!-- 年龄性别 -->
+				<div class="age_down">
+					<dl>
+						<dt>男孩<dt>
+						<dd><a href="#">0-1岁</a><a href="#">1-3岁</a><a href="#">3-6岁</a><a href="#">6-9岁</a><a href="#">9-12岁</a><dd>
+					</dl>
+					<dl>
+						<dt>女孩<dt>
+						<dd><a href="#">0-1岁</a><a href="#">1-3岁</a><a href="#">3-6岁</a><a href="#">6-9岁</a><a href="#">9-12岁</a><dd>
+					</dl>
+				</div>
+				<!-- 年龄性别结束 -->
+			</div>
+			<div class="right notice">
+					<i class="iconfont" style="font-size:8px">&#xe6d3;</i>精彩预告
+			</div>
+		</div>
+	</div>
+	<!-- 副nav 结束-->
+	<!-- nav 结束-->
+	
+	<!-- 轮播 -->
+	<ul class="banner">
+		<li><a href="#"><img src="images/banner/39988279715778_1400x320.jpg" alt=""/></a></li>
+		<li><a href="#"><img src="images/banner/52895679815778_1400x320.jpg" alt=""/></a></li>
+		<!-- 按钮 -->
+		<ol>
+			<li></li>
+			<li class="active"></li>
+		</ol>
+		<!-- 小图 -->
+		<div class="banner_list">
+			<ul class="clear">
+				<li>
+					<a href="#">
+						<img src="images/banner/81405561804033_800x800.jpg!100x100.jpg" alt=""/>
+						<p>限量999件</p>
+						<div class="price">￥27.9</div>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/banner/35823554581053_800x800.jpg!100x100.jpg" alt=""/>
+						<p>限量999件</p>
+						<div class="price">￥27.9</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/banner/66307143098198_800x800.jpg!100x100.jpg" alt=""/>
+						<p>限量999件</p>
+						<div class="price">￥27.9</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/banner/22580195430029_800x800.jpg!100x100.jpg" alt=""/>
+						<p>限量999件</p>
+						<div class="price">￥27.9</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 小图结束 -->
+	</ul>
+	<!-- 轮播 结束-->
+	<!-- 主物品区 -->
+	<div class="main">
+		<div class="wrapper clear">
+			<div class="main_top">
+				<span class="span1">今日特卖·</span><span>每天9点准时上新</span>
+				<span class="span3">定制我的专属特卖，立即<a href="login.html">[登录]</a>体验</span>
+			</div>
+			<ul id="main_list">
+		
+			</ul>
+
+			<!-- 主物品区右侧 -->
+			<div class="main_r right">
+				<ul class="ul1 clear">
+					<li>
+						<button class="active1">今日优选</button>
+						<div style="display:block;">
+							<ul class="clear">
+								<li>
+									<a href="##"><img src="images/main/main_right/94401913830032_200x100.png" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/94401913830032_200x100.png" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/94401913830032_200x100.png" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/94401913830032_200x100.png" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/94401913830032_200x100.png" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/94401913830032_200x100.png" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/94401913830032_200x100.png" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/94401913830032_200x100.png" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/94401913830032_200x100.png" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/94401913830032_200x100.png" alt="..."></a>
+								</li>
+							</ul>
+							<p><a href="##">更多在售品牌  &gt;</a></p>
+						</div>
+					</li>
+					<li>
+						<button>精彩预告</button>
+						<div>
+							<ul>
+								<li>
+									<a href="##"><img src="images/main/main_right/33356858516302_200x100.jpg" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/33356858516302_200x100.jpg" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/33356858516302_200x100.jpg" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/33356858516302_200x100.jpg" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/33356858516302_200x100.jpg" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/33356858516302_200x100.jpg" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/33356858516302_200x100.jpg" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/33356858516302_200x100.jpg" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/33356858516302_200x100.jpg" alt="..."></a>
+								</li>
+								<li>
+									<a href="##"><img src="images/main/main_right/33356858516302_200x100.jpg" alt="..."></a>
+								</li>
+							</ul>
+							<p><a href="##">更多品牌抢先看  &gt;</a></p>
+						</div>
+					</li>
+				</ul>
+				<h4>热卖排行榜</h4>
+				<ul class="ul2">
+					<li class="active2">
+						<span>童装</span>
+						  <ul class="ul2_list" style="display:block;">
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/85188201339364_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>猪猪的故事儿童童装男女童睡衣家居服套装</p>
+								    <p><span class="span1">￥<b>39.00</b></span><span class="span2">￥108</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/85188201339364_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>猪猪的故事儿童童装男女童睡衣家居服套装</p>
+								    <p><span class="span1">￥<b>39.00</b></span><span class="span2">￥108</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/85188201339364_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>猪猪的故事儿童童装男女童睡衣家居服套装</p>
+								    <p><span class="span1">￥<b>39.00</b></span><span class="span2">￥108</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/85188201339364_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>猪猪的故事儿童童装男女童睡衣家居服套装</p>
+								    <p><span class="span1">￥<b>39.00</b></span><span class="span2">￥108</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/85188201339364_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>猪猪的故事儿童童装男女童睡衣家居服套装</p>
+								    <p><span class="span1">￥<b>39.00</b></span><span class="span2">￥108</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/85188201339364_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>猪猪的故事儿童童装男女童睡衣家居服套装</p>
+								    <p><span class="span1">￥<b>39.00</b></span><span class="span2">￥108</span></p>
+								  </div>
+								</div>
+							</li>
+						  </ul>
+					</li>
+					<li>
+						<span>童鞋</span>
+						<ul class="ul2_list">
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/19163510112491_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>菲尼尔春秋男女婴儿步前鞋软底学步单鞋0-1岁</p>
+								    <p><span class="span1">￥<b>33.00</b></span><span class="span2">￥89</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/19163510112491_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>菲尼尔春秋男女婴儿步前鞋软底学步单鞋0-1岁</p>
+								    <p><span class="span1">￥<b>33.00</b></span><span class="span2">￥89</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/19163510112491_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>菲尼尔春秋男女婴儿步前鞋软底学步单鞋0-1岁</p>
+								    <p><span class="span1">￥<b>33.00</b></span><span class="span2">￥89</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/19163510112491_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>菲尼尔春秋男女婴儿步前鞋软底学步单鞋0-1岁</p>
+								    <p><span class="span1">￥<b>33.00</b></span><span class="span2">￥89</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/19163510112491_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>菲尼尔春秋男女婴儿步前鞋软底学步单鞋0-1岁</p>
+								    <p><span class="span1">￥<b>33.00</b></span><span class="span2">￥89</span></p>
+								  </div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<span>玩具</span>
+						<ul class="ul2_list">
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/93295449534467_750x750.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>祺月大号加厚挖掘机儿童玩具车学步车</p>
+								    <p><span class="span1">￥<b>79.90</b></span><span class="span2">￥189</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/93295449534467_750x750.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>祺月大号加厚挖掘机儿童玩具车学步车</p>
+								    <p><span class="span1">￥<b>79.90</b></span><span class="span2">￥189</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/93295449534467_750x750.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>祺月大号加厚挖掘机儿童玩具车学步车</p>
+								    <p><span class="span1">￥<b>79.90</b></span><span class="span2">￥189</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/93295449534467_750x750.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>祺月大号加厚挖掘机儿童玩具车学步车</p>
+								    <p><span class="span1">￥<b>79.90</b></span><span class="span2">￥189</span></p>
+								  </div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<span>用品</span>
+						<ul class="ul2_list">
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/56489291712157_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>序言春秋薄款婴儿彩棉分腿睡袋宝宝纯棉睡袋夏季儿童四季新生儿防踢被</p>
+								    <p><span class="span1">￥<b>45.8</b></span><span class="span2">￥158</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/56489291712157_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>序言春秋薄款婴儿彩棉分腿睡袋宝宝纯棉睡袋夏季儿童四季新生儿防踢被</p>
+								    <p><span class="span1">￥<b>45.8</b></span><span class="span2">￥158</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/56489291712157_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>序言春秋薄款婴儿彩棉分腿睡袋宝宝纯棉睡袋夏季儿童四季新生儿防踢被</p>
+								    <p><span class="span1">￥<b>45.8</b></span><span class="span2">￥158</span></p>
+								  </div>
+								</div>
+							</li>
+							<li>
+								<div class="media">
+								  <a class="media-left" href="#">
+								    <img  src="images/main/main_right/56489291712157_800x800.jpg!100x100.jpg" alt="...">
+								  </a>
+								  <div class="media-body">
+								    <p>序言春秋薄款婴儿彩棉分腿睡袋宝宝纯棉睡袋夏季儿童四季新生儿防踢被</p>
+								    <p><span class="span1">￥<b>45.8</b></span><span class="span2">￥158</span></p>
+								  </div>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main_foot">
+		<img src="images/main/upload_8c117b025f439e5a9b60d325d7980b20_1920x148.png" alt="" />
+		</div>
+	</div>
+	
+	<!-- 底部 -->
+	<div class="footer1">
+	   <div class="wrapper">
+			<div class="footer1_t clear">
+				<ul>
+					<p><i class="iconfont">&#xe60a;</i>新手指南</p>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+				</ul>
+				<ul>
+					<p><i class="iconfont">&#xf005d;</i>常见问题</p>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+				</ul>
+				<ul>
+					<p><i class="iconfont">&#xe608;</i>账号管理</p>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+				</ul>
+				<ul>
+					<p><i class="iconfont">&#xe604;</i>支付相关</p>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+				</ul>
+				<ul>
+					<p><i class="iconfont">&#xe600;</i>配送相关</p>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+				</ul>
+				<ul>
+					<p><i class="iconfont">&#xe72e;</i>消费者保障</p>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+					<li><a href="##">·注册登录</a></li>
+				</ul>
+				<div class="footer1_tr left">
+					<p class="p1">关注社区</p>
+					<p class="p2">优惠特卖早知道</p>
+				</div>
+			</div>
+			<a class="footer1_b" href="##">
+				<img src="images/footer/49433765513667_950x70.png"/>
+			</a>
+	   </div>
+	</div>
+	<div class="footer2">
+		<a href="##">首页</a>|<a href="##">关于贝贝</a>|<a href="##">商家入驻</a>|<a href="##">正品保证</a>|<a href="##">人才保证</a>|<a href="##">联系我们</a>|<a href="##">帮助中心</a>|<a href="##">友情链接</a>|<a href="##">手机客户端</a>|<a href="##">客服在线</a>|<a href="##">贝贝公益</a>|<a href="##">品质健康</a>
+	</div>
+	<div class="footer3">
+		<span>浙ICP备12005806号 |
+                食品流通许可证：SP3301041510054925 |
+                出版物经营许可证：新出发零字第00086号</span><br>
+        <span>© 2014-2016 beibei.com，All Rights Reserved. 客服热线：10107788</span><br>
+        <a href="##"><img src="images/footer/upload_37b07600c833c0678cfe99a29ab00f1f_127x47.png" alt="" /></a><a href="##"><img src="images/footer/cxwz.png" alt="" /></a><a href="##"><img src="images/footer/picc.png" alt="" /></a><a href="##"><img src="images/footer/hzgs.png" alt="" /></a>
+	</div>
+	<!-- 侧边 -->
+	<ul class="broadside">
+		<li class="li1">
+			<a href="##"><i class="iconfont">&#xe61d;</i><div class="car_num">0</div></a>
+			
+				<div id="car_in2" class="car_in">
+					<p class="car2_top"><i class="iconfont">&#xe61d;</i><span>购物车是空的</span></p>
+					<ul class="product product2">
+						<span>赶快去挑选商品吧!</span>
+						<!-- js写数据 -->
+					</ul>
+					<div class="foot">
+						<div id="xiaoji2" class="xiaoji left">小计：<span class="money pink">¥<i>0.00</i><span></div>
+						<a href="car.html" class="account left">
+							<i class="iconfont">&#xe61d;</i>去购物车结算
+						</a>
+					</div>
+				</div>
+			
+		</li>
+		<li class="li2">
+			<a href="##"><i class="iconfont">&#xe65c;</i></a>
+			<div class="side_phone">
+				<p>下载手机APP</p>
+				<p>随时随地看上新</p>
+				<img src="images/side/40450807220001_158x158.jpg" alt="">
+			</div>
+		</li>
+		<li class="li3"><a href="##"><i class="iconfont">&#xf0054;</i><span>客服在线</span></a></li>
+		<li class="li3"><a href="##" id="goback"><i class="iconfont">&#xe606;</i><span>回到顶部</span></a></li>
+	</ul>
+</body>
+</html>
