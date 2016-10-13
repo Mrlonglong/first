@@ -15,7 +15,7 @@ $(document).ready(function() {
 					//alert("用户名不存在");
 					$("#show").css("display","block");
 				}else {
-					//alert("正确");
+					alert("正确");
 					var checked = $("#checkBox").prop("checked");
 					if(checked==true){
 						$.cookie("userName",$("#phone").val(),{expires:7});

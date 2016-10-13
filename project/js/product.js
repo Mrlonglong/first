@@ -186,7 +186,8 @@ $(function(){
 	//给尺码添加点击事件
 	$(".size ul li").each(function(index, el) {
 		$(this).click(function(event) {
-			$("#val").val(1)
+			num=1
+			$("#val").val(num)
 			swit = 1;
 			size =$(this).find("span").html()
 			//console.log(size)
@@ -222,6 +223,7 @@ $(function(){
 		}else if(swit == 1){
 			//判断有没有登录
 			if($.cookie("userName")){
+				fly()
 				$("#buy").css("display","none").siblings('#account').css("display","block");
 				//创建cookie
 				creatCookie()
@@ -280,7 +282,23 @@ $(function(){
 		$("#time").html(str)
 	},1000)
 
-	
+	// 加入图片动画
+	function fly(){
+		var $img = $("#box ul li").find('.red').find('img');
+		console.log($img.offset().left,$img.offset().top)
+			$img.clone().css({
+				width:500,
+				height:500,
+				zIndex:100,
+				position:"absolute",
+				left:$img.offset().left,
+				top:$img.offset().top
+			}).animate({width:30,height:30},800).appendTo("body").delay(400).animate({left:1600,top:$(".broadside").offset().top,width:0,height:0},800);
+	}
+		
+
+
+		
 })	
 
 

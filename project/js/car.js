@@ -156,10 +156,12 @@ $(document).ready(function() {
 					var cookieStr =	JSON.stringify(cookieObj);
 					//判断cookie是否为空
 					if(cookieStr == "{}"){
-						$.cookie("car",null)
-						 hasCookie()
+						$.removeCookie("car")
+						window.location.reload();
 					}else{
 						$.cookie("car",cookieStr,{expires:7});
+						//重新改写展示的cookie商品
+						hasCookie()
 					}
 				}
 			});
