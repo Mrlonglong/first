@@ -186,6 +186,7 @@ $(function(){
 	//给尺码添加点击事件
 	$(".size ul li").each(function(index, el) {
 		$(this).click(function(event) {
+			$("#val").val(1)
 			swit = 1;
 			size =$(this).find("span").html()
 			//console.log(size)
@@ -219,10 +220,19 @@ $(function(){
 				$(".cost .red").css("display","none");
 			});
 		}else if(swit == 1){
-			//console.log(swit)
-			$("#buy").css("display","none").siblings('#account').css("display","block");
-			//创建cookie
-			//console.log(productId,size,num)
+			//判断有没有登录
+			if($.cookie("userName")){
+				$("#buy").css("display","none").siblings('#account').css("display","block");
+				//创建cookie
+				creatCookie()
+			}else{
+				alert("亲  请登录后选购！")
+			}
+			
+		}
+	})
+	//创建cookie
+	function creatCookie(){
 			var cookieObj ={};
 			if($.cookie("car")){
 				cookieObj = JSON.parse($.cookie("car"))
@@ -241,10 +251,7 @@ $(function(){
 			//console.log(objStr)
 			$.cookie("car",objStr,{expires:7});
 			showcookie()
-		}
-	})
-
-
+	}
 
 
 	//点击继续购买按钮
